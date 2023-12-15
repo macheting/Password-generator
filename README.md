@@ -1,4 +1,4 @@
-Este generador de contraseñas esta hecho con HTML, CSS y JavaScript, permite elegir si queremos generar la contraseña con numeros y simbolos.
+Este generador de contraseñas esta hecho con HTML, CSS y JavaScript, tambien permite elegir si queremos generar la contraseña con numeros y simbolo. Y no tiene limite de longitud de contraseña.
 
 
 ![image](https://github.com/macheting/Generador-de-contrase-as-aleatorias-hecho-con-HTML-CSS-y-JavaScript/assets/151371549/00686b2e-f457-480e-ac0b-e1d6bd473c5a)
