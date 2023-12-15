@@ -1,0 +1,89 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+body {
+    background-color: black;
+}
+.div-principal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 250px;
+    min-height: 200px;
+    width: auto;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    gap: 15px;
+}
+div div {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+#longitud {
+    width: auto;
+    height: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+#checkbox1, #checkbox2 {
+    width: 20px;
+    height: 20px;
+}
+h1 {
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+}
+label {
+    font-size: 20px;
+}
+button {
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    background: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+button:hover, .botonCopiar:hover {
+    background: white;
+    color: black;
+}
+hr {
+    width: 100%;
+}
+#contraseña {
+    margin: -15px 10px 10px 10px;
+    font-size: 20px;
+}
+.botonCopiar {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px;
+    display: none;
+}
+.botonCopiar.mostrar {
+    display: block;
+}
