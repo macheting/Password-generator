@@ -12,10 +12,11 @@ Las tecnologias usadas son:
 
 ![image](https://github.com/macheting/Generador-de-contrase-as-aleatorias-hecho-con-HTML-CSS-y-JavaScript/assets/151371549/70c25b9c-e8e3-4b93-aa15-c4d3aa495837)
 
-#Mi contacto:###
+#Mi contacto:#
 
 ------------
 
 
 **Email:** nardellidavid611@gmail.com
+
 **Github:** macheting
