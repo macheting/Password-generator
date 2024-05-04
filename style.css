@@ -1,23 +1,27 @@
 * {
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
 }
 body {
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
 }
 .div-principal {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-width: 250px;
-    min-height: 200px;
     width: auto;
+    min-width: 400px;
     height: auto;
+    max-width: 100%;
     border: 1px solid white;
     border-radius: 5px;
     color: white;
@@ -42,7 +46,7 @@ div div {
 }
 h1 {
     font-size: 30px;
-    margin: 10px;
+    margin: 20px;
     text-align: center;
 }
 label {
@@ -63,18 +67,19 @@ button:hover, .botonCopiar:hover {
     background: white;
     color: black;
 }
-hr {
-    width: 100%;
-}
 #contraseña {
-    margin: -15px 10px 10px 10px;
+    border-top: 1px solid white;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    margin: 0px 20px 20px 20px;
     font-size: 20px;
 }
 .botonCopiar {
-    position: absolute;
-    top: 72%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    zoom: 120%;
+    position: fixed;
+    bottom: 0;
     width: auto;
     height: auto;
     background: black;
@@ -82,6 +87,7 @@ hr {
     border: 1px solid white;
     border-radius: 5px;
     padding: 8px;
+    margin-bottom: 50px;
     display: none;
 }
 .botonCopiar.mostrar {
